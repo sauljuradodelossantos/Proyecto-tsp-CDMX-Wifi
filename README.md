@@ -1,7 +1,6 @@
+# Proyecto de Mapa de Puntos de Acceso WiFi por Programa en la CDMX
 
-# Proyecto de Mapa de Calor de Criminalidad
-
-Este proyecto es una aplicación web creada con Dash y Plotly para visualizar un mapa de calor de criminalidad en la Ciudad de México.
+Este proyecto es una aplicación web creada con Dash y Plotly para visualizar un mapa de calor de Puntos de Acceso WiFi por Programa en la Ciudad de México.
 
 ## Configuración
 
@@ -42,12 +41,11 @@ Instala las dependencias necesarias con:
 ```bash
 pip install -r requirements.txt
 ```
+pip install fiona
+pip install shapely
+pip install geopandas
 
-### 4. Configurar Mapbox
-
-Obtén una clave API de Mapbox (token) registrándote en [Mapbox](https://www.mapbox.com/). Asegúrate de no subir tu clave API a tu repositorio.
-
-### 5. Ejecutar la Aplicación
+### 4. Ejecutar la Aplicación
 
 Para ejecutar la aplicación, usa:
 
@@ -59,6 +57,3 @@ python app.py
 
 Abre tu navegador y dirígete a `http://127.0.0.1:8050/` para ver la aplicación.
 
-## Contribuir
-
-Para contribuir al proyecto, asegúrate de no subir tu entorno virtual o tu clave API de Mapbox.
