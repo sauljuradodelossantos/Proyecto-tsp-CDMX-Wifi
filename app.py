@@ -34,7 +34,7 @@ app = dash.Dash(__name__)
 
 # Definir el layout de la aplicación
 app.layout = html.Div([
-    html.H1("Mapa de Calor de Puntos de Acceso WiFi por Programa", className='h1'),
+    html.H1("Mapa de Puntos de Acceso WiFi por Programa", className='h1'),
     dcc.Dropdown(
         id='programa-selector',
         options=[{'label': i, 'value': i} for i in programas],
@@ -62,5 +62,3 @@ def update_map(programa_seleccionado):
 # Ejecutar la aplicación
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-
