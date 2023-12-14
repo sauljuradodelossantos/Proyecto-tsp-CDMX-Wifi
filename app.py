@@ -34,7 +34,7 @@ app = dash.Dash(__name__)
 
 # Definir el layout de la aplicación
 app.layout = html.Div([
-    html.H1("Mapa de Puntos de Acceso WiFi por Programa", className='h1'),
+    html.H1("Mapa de Puntos de Acceso WiFi por Programa 2023", className='h1'),
     dcc.Dropdown(
         id='programa-selector',
         options=[{'label': i, 'value': i} for i in programas],
